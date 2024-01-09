@@ -100,5 +100,11 @@ footer {
 }
 .copyright {
     display: flex;
-    margin: 0 10px;
+    margin-left: 10px;
+}
+.contact-icon {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin-right: 10px;
 }

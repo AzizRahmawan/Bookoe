@@ -49,6 +49,13 @@ function TopList() {
         return rows;
     };
 
-    return <div className="container">{renderBooks()}</div>;
+    return (
+        <div className="container">
+            <div className="page-header">
+                <h1 className="title-page-header">Our <span>Top Picks</span> Collection</h1>
+            </div>
+            {renderBooks()}
+        </div>
+    )
 }
 export default TopList;

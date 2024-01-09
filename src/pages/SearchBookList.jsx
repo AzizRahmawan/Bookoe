@@ -60,9 +60,14 @@ const SearchBookList = () => {
         }
         return rows;
     }
-    return <div className="container">
-        {renderBooks()}
-    </div>
+    return (
+        <div className="container">
+            <div className="page-header">
+                <h1 className="title-page-header"><span>Search For</span> {searchKeyword}</h1>
+            </div>
+            {renderBooks()}
+        </div>
+    )
 };
 
 export default SearchBookList;

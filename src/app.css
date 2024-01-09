@@ -124,4 +124,21 @@ nav {
   right: 35px;
 }
 
+.page-header {
+    display: flex;
+    background-color: #F1F0FE;
+    border-radius: 20px;
+    height: 100px;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
 
+.title-page-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.title-page-header span {
+    color: #8170F2;
+}
