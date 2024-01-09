@@ -1,0 +1,131 @@
+/* Hero Section */
+.hero-section {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  position: relative;
+  height: 520px;
+  background: #F1F0FE;
+  border-radius: 15px;
+}
+.content {
+  height: 100%;
+  display: flex;
+  padding: 65px 70px;
+}
+
+.text {
+  color: #1D1D1D;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.category {
+  color: #8170F2;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 62px;
+  line-height: 72px;
+}
+
+.description {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.author {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.rating {
+  display: flex;
+  margin-top: 8px;
+}
+
+.star {
+  width: 16.71px;
+  height: 16.84px;
+  background: #FDAF17;
+  margin-right: 5px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.read-book, .see-all {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+
+.read-book {
+  background: #8170F2;
+  color: white;
+}
+
+.read-book:hover {
+  color: #8170F2;
+  background: white;
+  border: solid #8170F2;
+}
+
+.see-all {
+  border: 1px #8170F2 solid;
+  color: #8170F2;
+}
+
+.see-all:hover {
+  background: #8170F2;
+  color: white;
+}
+
+.thumbnail-container {
+  max-width: 408px;  /*  */
+  display: flex;
+  position: relative;
+  margin: 60px 0;
+}
+
+.thumbnail {
+  max-width: 408px;
+  /* display: flex; */
+  position: absolute;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.thumbnail:nth-child(1) {
+  z-index: 1;
+  width: 196.06px;
+  height: 272.30px;
+  left: 212.39px;
+  top: 58.59px;
+}
+
+.thumbnail:nth-child(2) {
+  z-index: 2;
+  width: 236.20px;
+  height: 327.75px;
+  left: 124.51px;
+  top: 31.13px;
+}
+
+.thumbnail:nth-child(3) {
+  z-index: 3;
+  width: 280.14px;
+  height: 390px;
+  left: 0;
+  top: 0;
+}

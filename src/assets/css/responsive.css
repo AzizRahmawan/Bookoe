@@ -1,0 +1,51 @@
+@media screen and (max-width:1024px) {
+    /* Burger */
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .toggle-burger .line-1 {
+        transform: rotate(-45deg) translate(-5px, 7px);
+    }
+
+    .toggle-burger .line-2 {
+        opacity: 0;
+    }
+    
+    .toggle-burger .line-3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+    
+    /* Navigation */
+    nav {
+        position: fixed;
+        width: 100%;
+        right: 0;
+        top: 0;
+        height: 100%;
+        flex-direction: column;
+        background: white;
+        z-index: 9;
+        transform: translateX(100%);
+    }
+
+    nav ul {
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-active {
+        transform: translateX(0);
+    }
+
+    .nav-form {
+        display: none;
+    }
+
+    .thumbnail {
+        width: 75%;
+    }
+}

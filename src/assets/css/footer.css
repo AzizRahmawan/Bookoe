@@ -1,0 +1,104 @@
+footer {
+    width: 100%;
+    height: 100%;
+    margin: 40px 0;
+    font-family: 'Poppins';
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 400px;
+    background: #8170F2;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.form-title {
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.card-form {
+    display: flex;
+    position: relative;
+    gap: 0.8rem;
+}
+
+.input-email {
+    border-radius: 8px;
+    width: 400px;
+    padding-left: 15px;
+}
+
+.card-form button {
+    padding: 10px 25px;
+    background-color: #F1F0FE;
+    color: #8170F2;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.logo-footer {
+    width: 100%; 
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    margin: 40px 0;
+}
+
+.footer-logo {
+    width: 250px;
+    height: 80px;
+    display: flex; 
+    align-items: center; 
+}
+
+.footer-logo img {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+.footer-logo-name {
+    width: 160px;
+}
+.footer-logo-title {
+    color: #1d1d1d;
+    font-size: 40px;
+    font-weight: 500;
+    height: 50px;
+}
+.footer-logo-sub-title {
+    color: #1d1d1d;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.footer-logo-desc {
+    display: flex;
+    max-width: 520px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-divider {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    border-top: 1px solid rgb(100, 100, 100); 
+}
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.copyright {
+    display: flex;
+    margin: 0 10px;
+}
