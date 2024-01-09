@@ -1,3 +1,3 @@
-Pull
-npm install
-npm run dev
+1. Pull
+2. npm install
+3. npm run dev
